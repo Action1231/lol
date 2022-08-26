@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    margin: 100px 115px;
+
+}
+
+.content {
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    padding: 80px 110px;
+}
+
+h1 {
+    font-size: 700;
+    font-weight: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+    text-align: center;
+}
+
+button {
+    background-color: #25DAC5;
+    border-radius: 100px;
+    color: white;
+    padding: 17px 29px;
+    border: transparent;
+    font-size: 500;
+    font-weight: 20px;
+
+}
